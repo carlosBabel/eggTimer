@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0712DB1E1E4346A30099F5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB1D1E4346A30099F5B9 /* AppDelegate.swift */; };
-		0712DB201E4346A30099F5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB1F1E4346A30099F5B9 /* ViewController.swift */; };
-		0712DB231E4346A30099F5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0712DB211E4346A30099F5B9 /* Main.storyboard */; };
+		0712DB201E4346A30099F5B9 /* TemporizadorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB1F1E4346A30099F5B9 /* TemporizadorController.swift */; };
 		0712DB251E4346A30099F5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0712DB241E4346A30099F5B9 /* Assets.xcassets */; };
 		0712DB281E4346A30099F5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0712DB261E4346A30099F5B9 /* LaunchScreen.storyboard */; };
+		0712DB331E43530E0099F5B9 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB321E43530E0099F5B9 /* Receta.swift */; };
+		0712DB351E4355270099F5B9 /* RecetaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB341E4355270099F5B9 /* RecetaController.swift */; };
+		0712DB371E436D0F0099F5B9 /* IngredienteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB361E436D0F0099F5B9 /* IngredienteCell.swift */; };
+		0712DB391E4389CE0099F5B9 /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB381E4389CE0099F5B9 /* InicioController.swift */; };
+		0712DB3B1E43A6C90099F5B9 /* RecetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB3A1E43A6C90099F5B9 /* RecetaCell.swift */; };
+		0712DB3D1E43BA280099F5B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0712DB3C1E43BA280099F5B9 /* GoogleService-Info.plist */; };
+		0712DB3F1E43BE5C0099F5B9 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712DB3E1E43BE5C0099F5B9 /* Constantes.swift */; };
+		0712DB441E43F4E30099F5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0712DB421E43F4E30099F5B9 /* Main.storyboard */; };
+		8B4468719BEBE45F2D5877D9 /* Pods_eggTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A3F8C099299DF342DDCC78 /* Pods_eggTimer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0712DB1A1E4346A30099F5B9 /* eggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0712DB1D1E4346A30099F5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0712DB1F1E4346A30099F5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0712DB221E4346A30099F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0712DB1F1E4346A30099F5B9 /* TemporizadorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporizadorController.swift; sourceTree = "<group>"; };
 		0712DB241E4346A30099F5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0712DB271E4346A30099F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0712DB291E4346A30099F5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0712DB321E43530E0099F5B9 /* Receta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		0712DB341E4355270099F5B9 /* RecetaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaController.swift; sourceTree = "<group>"; };
+		0712DB361E436D0F0099F5B9 /* IngredienteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredienteCell.swift; sourceTree = "<group>"; };
+		0712DB381E4389CE0099F5B9 /* InicioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
+		0712DB3A1E43A6C90099F5B9 /* RecetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaCell.swift; sourceTree = "<group>"; };
+		0712DB3C1E43BA280099F5B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0712DB3E1E43BE5C0099F5B9 /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		0712DB431E43F4E30099F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A3F8C099299DF342DDCC78 /* Pods_eggTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eggTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA18663089FB74410B2CC200 /* Pods-eggTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eggTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-eggTimer/Pods-eggTimer.release.xcconfig"; sourceTree = "<group>"; };
+		FCC1D5534E19A48BD207CF61 /* Pods-eggTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eggTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eggTimer/Pods-eggTimer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4468719BEBE45F2D5877D9 /* Pods_eggTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				0712DB1C1E4346A30099F5B9 /* eggTimer */,
 				0712DB1B1E4346A30099F5B9 /* Products */,
+				A9747F959E6C680CE015C0FD /* Pods */,
+				CB4D86145570D32E92EFFFEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,62 @@
 		0712DB1C1E4346A30099F5B9 /* eggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				0712DB311E4352F90099F5B9 /* Model */,
+				0712DB301E4352F40099F5B9 /* View */,
+				0712DB2F1E4352ED0099F5B9 /* Controller */,
 				0712DB1D1E4346A30099F5B9 /* AppDelegate.swift */,
-				0712DB1F1E4346A30099F5B9 /* ViewController.swift */,
-				0712DB211E4346A30099F5B9 /* Main.storyboard */,
 				0712DB241E4346A30099F5B9 /* Assets.xcassets */,
-				0712DB261E4346A30099F5B9 /* LaunchScreen.storyboard */,
 				0712DB291E4346A30099F5B9 /* Info.plist */,
+				0712DB3C1E43BA280099F5B9 /* GoogleService-Info.plist */,
+				0712DB3E1E43BE5C0099F5B9 /* Constantes.swift */,
 			);
 			path = eggTimer;
+			sourceTree = "<group>";
+		};
+		0712DB2F1E4352ED0099F5B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0712DB1F1E4346A30099F5B9 /* TemporizadorController.swift */,
+				0712DB341E4355270099F5B9 /* RecetaController.swift */,
+				0712DB381E4389CE0099F5B9 /* InicioController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0712DB301E4352F40099F5B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0712DB421E43F4E30099F5B9 /* Main.storyboard */,
+				0712DB261E4346A30099F5B9 /* LaunchScreen.storyboard */,
+				0712DB361E436D0F0099F5B9 /* IngredienteCell.swift */,
+				0712DB3A1E43A6C90099F5B9 /* RecetaCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0712DB311E4352F90099F5B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0712DB321E43530E0099F5B9 /* Receta.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9747F959E6C680CE015C0FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC1D5534E19A48BD207CF61 /* Pods-eggTimer.debug.xcconfig */,
+				FA18663089FB74410B2CC200 /* Pods-eggTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB4D86145570D32E92EFFFEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3F8C099299DF342DDCC78 /* Pods_eggTimer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0712DB2C1E4346A30099F5B9 /* Build configuration list for PBXNativeTarget "eggTimer" */;
 			buildPhases = (
+				1596B9378D9BD346F97396A3 /* [CP] Check Pods Manifest.lock */,
 				0712DB161E4346A20099F5B9 /* Sources */,
 				0712DB171E4346A20099F5B9 /* Frameworks */,
 				0712DB181E4346A20099F5B9 /* Resources */,
+				CC263DD1C77C9331E441A385 /* [CP] Embed Pods Frameworks */,
+				76B135FFF3296654579A10BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +197,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				0712DB281E4346A30099F5B9 /* LaunchScreen.storyboard in Resources */,
+				0712DB3D1E43BA280099F5B9 /* GoogleService-Info.plist in Resources */,
 				0712DB251E4346A30099F5B9 /* Assets.xcassets in Resources */,
-				0712DB231E4346A30099F5B9 /* Main.storyboard in Resources */,
+				0712DB441E43F4E30099F5B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1596B9378D9BD346F97396A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76B135FFF3296654579A10BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eggTimer/Pods-eggTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC263DD1C77C9331E441A385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eggTimer/Pods-eggTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0712DB161E4346A20099F5B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0712DB201E4346A30099F5B9 /* ViewController.swift in Sources */,
+				0712DB391E4389CE0099F5B9 /* InicioController.swift in Sources */,
+				0712DB371E436D0F0099F5B9 /* IngredienteCell.swift in Sources */,
+				0712DB3B1E43A6C90099F5B9 /* RecetaCell.swift in Sources */,
+				0712DB331E43530E0099F5B9 /* Receta.swift in Sources */,
+				0712DB351E4355270099F5B9 /* RecetaController.swift in Sources */,
+				0712DB3F1E43BE5C0099F5B9 /* Constantes.swift in Sources */,
+				0712DB201E4346A30099F5B9 /* TemporizadorController.swift in Sources */,
 				0712DB1E1E4346A30099F5B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,20 +272,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0712DB211E4346A30099F5B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0712DB221E4346A30099F5B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0712DB261E4346A30099F5B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0712DB271E4346A30099F5B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0712DB421E43F4E30099F5B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0712DB431E43F4E30099F5B9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +386,7 @@
 		};
 		0712DB2D1E4346A30099F5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC1D5534E19A48BD207CF61 /* Pods-eggTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBHDCG9U5M;
@@ -272,6 +400,7 @@
 		};
 		0712DB2E1E4346A30099F5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA18663089FB74410B2CC200 /* Pods-eggTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBHDCG9U5M;
@@ -302,6 +431,7 @@
 				0712DB2E1E4346A30099F5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

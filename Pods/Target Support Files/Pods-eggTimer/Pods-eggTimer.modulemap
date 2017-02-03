@@ -1,0 +1,6 @@
+framework module Pods_eggTimer {
+  umbrella header "Pods-eggTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
